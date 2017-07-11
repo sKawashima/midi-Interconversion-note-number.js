@@ -5,7 +5,13 @@ Interconversion MIDI key &lt;=> number
 number -> key
 
 ```
-number2key(number);
+number2key(24); //output:"C2"
+```
+
+key -> number
+
+```
+key2number(C2); //output:24
 ```
 
 ## Reference
